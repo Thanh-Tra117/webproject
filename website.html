@@ -1,0 +1,256 @@
+<!DOCTYPE html> <!--Xác định cho trình duyệt biết phiên bản html mà bạn đang sử dụng -->
+<html> <!--Xác định một tài liệu html; 
+    dùng để nói cho trình duyệt biết "tập tin mà trình duyệt đang đọc là một tập tin HTML;
+    là thẻ gốc của tập tin, nó dùng để chứa tất cả những thẻ khác ngoại trừ <!DOCTYPE>"-->
+     
+    <head> <!--Xác định phần đầu của tài liệu html(chứa các thẻ cung cấp thông tin cho trang web)-->
+        <!--Xác định tiêu đề cho trang web-->
+        <title>
+            My firt website
+        </title>
+    </head>
+    <body> <!--Xác định phần thân của tài liệu HTML
+        (chứa những phần tử sẽ được hiển thị lên màn hình trình duyệt)-->
+        <h1> 1. Basic (Cơ bản)
+           <br> Tiêu đề (h1)<h6> <!--Tạo những đề mục quan trọng trong trang web( h1 lớn nhất cho đến h6 nhỏ nhất)-->
+                Tiêu đề (h6)
+            </h6>
+        </h1>
+        <p> <!--Xác định một đoạn văn-->
+            Văn bản gõ ở trong đây
+        </p>
+        <br> <!--Dùng để chèn một ngắt xuống dòng-->
+        Phía trên là những thẻ Basic (cơ bản)
+        <hr> <!--Tạo một đường kẻ phân cách nằm ngang-->
+        <h1>2. Formatting (định dạng cho chữ)</h1>
+        <abbr title="Đây gọi là định nghĩa từ viết tắt khi lê chuột vào"> <!--Định nghĩa một từ viết tắt-->
+            Hãy lê chuột vào đây
+        </abbr>
+        <address> <!--Xác định thông tin liên hệ của tác giả (hoặc chủ sở hữu) trang web-->
+            <p>Người viết: Nguyễn Thanh Trà</p>
+            <p>Email: ttra86674@gamil.com</p>
+        </address>
+        <b> <!--Xác định đoạn văn bản được in đậm-->
+            Văn bản in đậm
+        </b>
+        <bdo> <!--Dùng để điều hướng đoạn văn bản bạn chỉ định
+            ltr đúng hướng | rtl là đảo hướng-->
+            <p><bdo dir="ltr">Đoạn chữ đúng hướng</bdo></p>
+            <p><bdo dir="rtl">Đoạn chữ đảo hướng</bdo></p>
+        </bdo>
+        <big> <!--Xác định 1 đoạn văn bản có kích thướng to hơn bình thường-->
+            Văn bản phóng to
+        </big> <br>
+        <small> <!--Xác định 1 đoạn văn bản có kích thước nhỏ hơn bình thường-->
+            Văn bản có kích thước nhỏ
+        </small>
+         <h3>Bên dưới là một trích dẫn từ trang www.worldwildlife.org</h3>
+    <blockquote cite="http://www.worldwildlife.org/about"> <!--Xác định một "đoạn trích dẫn" từ một website khác-->
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization, 
+        WWF works in 100 countries and is supported by 1.2 million 
+        members in the United States and close to 5 million globally.
+    </blockquote>
+    <code> <!--Xác định một đoạn văn bản mang ý nghĩa là các mã lệnh-->
+        Đây là một đoạn mã code
+    </code> <br>
+    <kbd> <!--Xác định một từ (hoặc cụm từ) mang ý nghĩa là một phím hoặc tổ hợp phím-->
+        Ctrl + Shift + N
+    </kbd> <br>
+    <del> <!--Tạo một đường kẻ ngang lên văn bản-->
+        "del" Văn bản này bị xóa
+        <s>
+           và "s" cũng tạo một đường kẻ ngang lên văn bản
+        </s>
+    </del> <br>
+    <em> <!--Cả <i> và <em> đều tạo dòng chữ in nghiên-->
+        "em" tạo một đoạn văn bản in nghiên
+    </em> <br>
+    <i>
+        "i" cũng tạo dòng chữ in nghiên
+    </i> <br>
+    <ins> <!--cả <ins> và <u> đều gạch chân lên văn bản-->
+        ins và
+        <u>
+            u đều tạo đường gạch chân lên văn bản 
+        </u>
+    </ins> <br>
+    <mark> <!--Đánh dấu màu nền nổi bật cho chữ-->
+        Đánh dấu nổi bật chữ
+    </mark> <br>
+    <meter min="0" max="100" 
+    low="20" high="75" 
+    value="19"> <!--dùng để tạo các phần tử có ý nghĩa giống như: thước đo, ổ đĩa,...
+    cú pháp chung: <meter min="number" max="number" 
+    low="number" high="number" 
+    value="number"></meter>-->
+    </meter> <br>
+    <meter min="0" max="100" 
+    low="20" high="75" 
+    value="57">
+    </meter> <br>
+    <meter min="0" max="100" 
+    low="20" high="75" 
+    value="80" title="Tạo phần tử có ý nghĩa giống như:
+    thước đo, ổ đĩa, ....">
+    </meter> <br>
+    <pre> <!--Giúp cho nội dung mà bạn muốn hiển 
+        thị lên màn hình được giữ nguyên định 
+        dạng giống như trong lúc soạn thảo-->
+        Giúp cho nội dung mà bạn 
+        MUỐN HIỂN THỊ               lên màn hình được giữ nguyên định dạng 
+        giống như trong                  lúc      SOẠN THẢO
+    </pre> <br>
+    <progress 
+     max="100" value="85" title="Tạo một thanh tiến trình">
+    </progress> <!--Tạo một thanh tiến trình--> <br>
+    <q> <!--Xác định một cau trích dẫn ngắn-->
+        Tự động thêm giấu " vào mỗi đầu câu trích dẫn
+    </q>
+    <p>
+        Quán chúng tôi sẽ được khai trương vào lúc 
+        <time>11:00</time> <!--Đánh dấu những phần văn bản là: 
+            thời gian, ngày tháng, ngày lễ, ....--> 
+            ngày 
+        <time datetime="2017-03-08">Quốc tế Phụ nữ</time>
+    </p>
+    <p>
+        Văn bản
+        <sub>
+        tạo văn bản nhỏ nằm khoảng nửa dưới văn bản
+    </sub>
+    <sup>
+        tạo văn bản nhỏ nằm khoảng nửa dưới văn bản
+    </sup></p>
+    <p>Khi có một từ quá dài thì dùng thẻ này để ngắt dòng1313<wbr>123327385289358925827357235728934542324
+        (trong trường hợp chiều rộng của phần tử không đủ để chứa hết từ đó)
+    </p> <br>
+    <h1>3. Frames (khung)</h1>
+    <p><big>"Không dùng tới nhen"</big></p>
+    <h1>4. Images (hình ảnh)</h1>
+    <img src="/image/KikuriHiroi.jpg" height="300">
+    <P>"img" Dùng để chèn hình ảnh</P>
+    <map>
+        <area> <!--Hai thẻ này khó quá nên bỏ qua nhé-->
+    </map>
+    <figure> <!--Xác định một nội dung cần được tách biệt rõ ràng-->
+        <img src="/image/starBochhi.jpg" width="300"> 
+        <figcaption> <!--Tạo một tiêu đề cho nội dung đc đặt bên trong phần tử <figure>-->
+            Gotou (Bochhi) Hitori
+        </figcaption>
+    </figure>
+    <h1>5. Audio / Video</h1>
+    <audio controls> <!--Tạo một trình phát nhạc cho trang web-->
+        <source src="/audio/nhạc.mp3"> <!--Chỉ định tài nguyên cho trình nghe nhạc hoặc trình xem phim-->
+    </audio> <br>
+    <video controls width=300"> <!--Tạo một trình xem phim cho trang web-->
+        <source src="/video/video.mp4">
+        <track src=""> <!--Dùng để chèn một file phụ đề vào trong video-->
+    </video>
+    <h1>6. links (liên kết)</h1>
+    <nav> <!--Xác định một tập hợp các liên kết & thường được sử dụng kết hợp với CSS để tạo một thanh menu-->
+    <a href="https://youtu.be/1Uw57aztEdw?si=wzYN_Dlj0s24sJv1"> <!--Tạo một liên kết đi đến một trang web khác-->
+        CHAMPION
+    </a> | 
+    <a href="https://youtu.be/jvEmoKgUVU0?si=EM00mdQ4H6EOR0qi"
+    title="Dẫn đến video nhạc trên youtube">
+        Snowblind
+    </a>
+    </nav>
+    <h1>7. List (danh sách)</h1>
+    <ul> <!--Xác định một danh sách không có thứ tự-->
+        4 main in "Bocchi the rock":
+        <li> <!--Xác định một danh mục trong danh sách-->
+            Gotou Hitori
+        </li>
+        <li>Ijichi Nijika</li>
+        <li>Yamada Ryo</li>
+        <li>Kita Ikuyo</li>
+    </ul>
+    <ol> <!--Xác định một danh sách có thứ tự-->
+        4 main in "Bocchi the rock"
+        <li>Gotou (Bocchi) Htori</li>
+        <li>Ijichi Nijika</li>
+        <li>Yamada Ryo</li>
+        <li>Kita Ikuyo</li>
+    </ol>
+    <h1>8. Tables (bảng)</h1>
+    <table border="1" width="400"> <!--Xác định phần tử là một cái bảng-->
+        <thead align="center"> <!--Xác định phần đầu bảng-->
+            <tr> <!--Xác định phân tử là một hàng trong bảng-->
+            <th>Name</th> <!--Xác định phần tử là một ô tiêu đề trong hàng-->
+            <th>Gender</th>
+            <th>Role</th>
+            </tr>
+        </thead>
+       <tbody align="center"> <!--Xác định phần thân bảng-->
+        <tr>
+            <td>Hitori</td> <!--Xác định phần tử là một ô trong hàng-->
+            <td>female</td>
+            <td>Giutar</td>
+        </tr>
+        <tr>
+            <td>Nijika</td>
+            <td>female</td>
+            <td>Drumer</td>
+        </tr>
+        </tbody>
+        <tfoot align="center"> <!--Xác định phần chân bảng-->
+            <tr>
+                <td colspan="3">Keszokuban</td>
+            </tr>
+        </tfoot>
+        <!--Dù cho phần caption, head, body, foot có đặt lộn xộn
+        thì khi lên trang web nó cũng để theo thứ tự Tiêu đề=>Đầu bảng=>Thân bảng=>Chân bảng-->
+        <caption>THÔNG TIN NHÂN VẬT</caption> <!--Tạo tiêu đề cho bảng-->
+    </table>
+    <h1>9. Styles and Semantics (phong cách và ngữ nghĩa)</h1>
+    <!--<Style> Dùng để làm thùng chứa các đoạn mã CSS-->
+    <style> 
+         h1{
+            color:rgb(103, 147, 14);
+         }
+    </style> <!--Style có thể đặt bất cứ ở đâu trong trang web
+    nhưng nó thường đặt ở trong phần tử <head> để dễ nhìn hơn-->
+        <div> <!--Nhóm các phần tuwr lại vs nhau để tiện việc định dạng
+        cũng như thiết kế bố cục trang web-->
+        Thẻ div nhóm các phần tử lại với nhau trong một khung 
+        để tiện cho việc định dạng và thiết kế trang web
+        </div> <!--Đây là thẻ quan trọng nhất và dùng nhiều nhất-->
+        <span style="font-size:30px;font-family:monospace;"> <!--
+            nhóm các phần tử nội tuyến lại vs nhau để tiện cho việc định dạng CSS
+        -->
+            Định dạng CSS
+        </span>
+        <header> <!--Thẻ <header> xác định phần đầu của trang web, 
+            nó dùng để làm thùng chứa cho 
+            các phần tử là tiêu đề, liên kết, hình ảnh logo,....-->
+            <div>Học các thẻ cơ bản</div>
+        </header>
+        <main> <!--Xác định phần thân trang web-->
+        </main>
+        <footer> <!--Xác định phần chân trang web, thường được dùng
+            để chứa các thông tin liên hệ, bản quyền, tác giả, liên kết,....-->
+        </footer>
+        <dialog open> <!--Tạo một hộp thoại-->
+            Một hộp thoại
+        </dialog> <br><br>
+        <details> <!--Thẻ details và summary thường được sử dụng kết hợp
+        với nhau để tạo phần tử có dạng:-->
+        <summary>Bocchi</summary>
+        Tên thật là Gotou Hitori, là một cô gái hướng nội nhút nhát,
+        sợ tất cả mọi người xung quanh, và là nhân vật mình thích nhất trong
+        anime world.
+        </details>
+        <h1>10. Meta Info</h1>
+        <meta> <!--Cung cấp thêm "thông tin về trang web" cho trình duyệt và các công cụ tìm kiếm
+        và phải đặt vào trong phần tử <head>-->
+        <base> <!--Xác định "đường dẫn cơ sở" trong trang web và kiểu mở liên kết mặc định-->
+        <h1>11. Programming (Lập trình)</h1>
+        <script></script> <!--Dùng để làm thùng chứa cho các câu lệnh JavaScript-->
+        <noscript></noscript> <br>	Xác định một nội dung HTML sẽ được hiển thị khi 
+        trình duyệt không hỗ trợ JavaScript hoặc đã tắt JavaScript <br>
+        Thẻ embed và object dùng để nhúng một tài liệu nào đó vào trang web giống thế này <br>
+        <embed src="https://media.hufi.edu.vn//Media/2_SV_HUFI/FolderFunc/202303/Documents/tb182dct-tb-khuyen-khich-hoc-tap-hk1-22-23-20230321110650-e.pdf"> <!--Dùng để nhúng một tài liệu nào đó vào trang web-->
+    </body>
+</html>
